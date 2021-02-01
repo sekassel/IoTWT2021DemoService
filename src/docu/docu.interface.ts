@@ -9,6 +9,7 @@ export interface ApiDoc {
 
 export interface EndpointDefinition {
   description: string;
+  name: strinng;
   endpoint: string;
   method: HttpVerb;
   kind?: Kind;
