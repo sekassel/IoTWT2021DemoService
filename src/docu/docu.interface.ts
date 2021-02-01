@@ -3,7 +3,7 @@ export interface ApiDoc {
   name: string;
   description: string;
   apiBase: string;
-  autor: string;
+  author: string;
   services: EndpointDefinition[];
 }
 
